@@ -11,6 +11,8 @@ namespace WorkshopAPI.Models
         public string Username { get; set; } = string.Empty;
         [JsonPropertyName("email")]
         public string Email { get; set; } = string.Empty;
+        [JsonPropertyName("password_hash")]
+        public string PasswordHash { get; set; } = string.Empty;
         [JsonPropertyName("created_at")]
         public DateTime CreatedAt { get; set; }
     }
