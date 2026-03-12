@@ -11,6 +11,7 @@ namespace WorkshopAPI.Data
             Id = 1,
             Username = "john_doe",
             Email = "john@example.com",
+            PasswordHash = "",
             CreatedAt = DateTime.UtcNow
         },
         new User
@@ -18,6 +19,7 @@ namespace WorkshopAPI.Data
             Id = 2,
             Username = "jane_smith",
             Email = "jane@example.com",
+            PasswordHash = "",
             CreatedAt = DateTime.UtcNow
         }
     };
